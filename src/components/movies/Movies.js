@@ -5,7 +5,7 @@ import Avatar from "@mui/material/Avatar";
 
 import "./Movies.css";
 
-const API_URL = " http://www.omdbapi.com/?i=tt3896198&apikey=3ad48b8f";
+const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=3ad48b8f";
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
